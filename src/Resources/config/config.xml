@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Ky file perdoret per konfigurim te "front-endit". Cfaredo komponenti qe 
+    definohet ktu, shfaqet ne settings-at e plugin-it ne admin panel.
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    
+    <card>
+        <title>#ListaProdukteve# Settings</title>
+        <title lang="de-DE">#ListaProdukteve# Einstellungen</title>
+
+        <input-field type="bool">
+            <name>testInput</name>
+            <label>Test</label>
+        </input-field>
+    </card>
+
+</config>

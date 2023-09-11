@@ -1,0 +1,35 @@
+{
+
+  "name": "bregoraxhimusa/lista-produkteve",
+  "description": "Detyra e kerkuar nga Solution 25",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "version": "1.0",
+  "autoload": {
+    "psr-4": {
+      "ListaProdukteve\\": "src/"
+    }
+  },
+
+  "require": {
+    "shopware/core": "6.5.*"
+  },
+
+  "authors": [
+    {
+      "name": "Bregor Axhimusa",
+      "email": "bregoraxhimusa31@gmail.com",
+      "homepage": "https://www.bregoraxhimusa.com",
+      "role": "PHP Full Stack Developer"
+    }
+  ],
+
+  "extra": {
+    "shopware-plugin-class": "ListaProdukteve\\ListaProdukteve",
+    "label": {
+      "de-DE": "Detyra e kerkuar nga Solution 25",
+      "en-GB": "Detyra e kerkuar nga Solution 25"
+    }
+  }
+  
+}
